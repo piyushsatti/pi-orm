@@ -1,0 +1,1 @@
+# Keep the `db` directory in the repository. The library will create the DB file if missing.

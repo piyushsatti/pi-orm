@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "B", "C", "S"]
+
+[tool.ruff.target-version]
+py = "py310"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
